@@ -49,9 +49,7 @@ seemingly resolved by matching dependency versions (
 
 ## Troubleshooting
 
-* Build error only arises when `IntoWasmAbi`/`FromWasmAbi` are implemented for 
-  a new type.
+* Build error only arises when `IntoWasmAbi`/`FromWasmAbi` are implemented for a new type.
 * As far as I can tell, dependency versions are all the same. I've tried many 
-  of the older versions that resolved previous issues to no avail 
-  (`0.2.78`, `0.2.79`, `0.2.84`).
+  of the older versions that resolved previous issues to no avail (`0.2.78`, `0.2.79`, `0.2.84`).
 * Attempted reinstalling `wasm-pack` with `wasm-pack --locked` to no avail
